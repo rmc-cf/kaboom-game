@@ -1,6 +1,9 @@
 import kaboom from "kaboom"
+import { loopCursor } from "./utils/cursor"
 
 const k = kaboom()
+//循环鼠标
+loopCursor()
 
 k.loadSprite("bean", "./sprites/bean.png")
 k.loadSprite("ghosty", "./sprites/ghosty.png")
@@ -8,7 +11,6 @@ k.loadSprite("ghosty", "./sprites/ghosty.png")
 const SPEED = 320
 const ENEMY_SPEED = 160
 const BULLET_SPEED = 800
-
 
 // Add player game object
 const player = add([
