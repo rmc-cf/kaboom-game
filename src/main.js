@@ -3,14 +3,7 @@ import kaboom from "kaboom"
 const k = kaboom()
 
 k.loadSprite("bean", "sprites/bean.png")
-k.loadSprite("ghosty", "sprites/enemy.png",{
-	sliceX:10,
-	sliceY:10,
-	slice9:{
-		left:220,
-		top:220
-	}
-})
+k.loadSprite("ghosty", "sprites/ghosty.png")
 
 const SPEED = 320
 const ENEMY_SPEED = 160
