@@ -2,8 +2,8 @@ import kaboom from "kaboom"
 
 const k = kaboom()
 
-k.loadSprite("bean", "sprites/bean.png")
-k.loadSprite("ghosty", "sprites/ghosty.png")
+k.loadSprite("bean", "./sprites/bean.png")
+k.loadSprite("ghosty", "./sprites/ghosty.png")
 
 const SPEED = 320
 const ENEMY_SPEED = 160
